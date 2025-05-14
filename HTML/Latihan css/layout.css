@@ -1,0 +1,39 @@
+*{
+  margin: 5px;
+  box-sizing: border-box;
+}
+body{
+  background: #09122C;
+  font-family:sans-serif ;
+  text-align: center;
+  color: aqua;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+}
+#main {
+  display: flex;
+  flex: 1;
+}
+header{
+  background:#2973B2 ;
+  padding: 2em 0;
+}
+main{
+background:#574964;
+flex: 5 5 150px;
+}
+#left{
+  background: #4635B1;
+  padding: 2em 0;
+  flex: 1 1 100px;
+}
+#right{
+  background:#B771E5 ;
+  padding: 2em 0;
+  flex: 1 1 100px;
+}
+footer{
+  background: #A35C7A;
+  padding: 2em 0;
+}

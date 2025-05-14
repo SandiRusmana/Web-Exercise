@@ -1,0 +1,201 @@
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Animation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            overflow: hidden;
+        }
+        .heart {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            transform: rotate(-45deg);
+            animation: float 4s linear infinite;
+        }
+        .heart:before,
+        .heart:after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            border-radius: 50%;
+        }
+        .heart:before {
+            top: -25px;
+            left: 0;
+        }
+        .heart:after {
+            left: 25px;
+            top: 0;
+        }
+        @keyframes float {
+            0% {
+                transform: translateY(0) scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-600px) scale(0.5);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.classList.add('heart');
+            heart.style.left = Math.random() * window.innerWidth + 'px';
+            heart.style.animationDuration = Math.random() * 2 + 3 + 's';
+            document.body.appendChild(heart);
+            setTimeout(() => heart.remove(), 5000);
+        }
+        setInterval(createHeart, 300);
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animasi Banyak Love</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffebee;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            flex-direction: column;
+        }
+        .container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+        }
+        .heart {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            transform: rotate(-45deg);
+            animation: float 5s linear infinite;
+        }
+        .heart:before,
+        .heart:after {
+            content: "";
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            border-radius: 50%;
+        }
+        .heart:before {
+            top: -25px;
+            left: 0;
+        }
+        .heart:after {
+            left: 25px;
+            top: 0;
+        }
+        .initials {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-100%, -100%);
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) scale(1) rotate(-45deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-10vh) scale(1.5) rotate(-45deg);
+                opacity: 0;
+            }
+        }
+        .input-container {
+            position: absolute;
+            bottom: 50px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="heartContainer"></div>
+    <div class="input-container">
+        <input type="text" id="inputInitials" placeholder="Masukkan inisial...">
+    </div>
+    <script>
+        function createHeart() {
+            const heartContainer = document.getElementById("heartContainer");
+            const heart = document.createElement("div");
+            heart.classList.add("heart");
+            heart.style.left = Math.random() * 100 + "vw";
+            heart.style.animationDuration = Math.random() * 3 + 3 + "s";
+            
+            const initials = document.createElement("div");
+            initials.classList.add("initials");
+            initials.textContent = document.getElementById("inputInitials").value || "F";
+            heart.appendChild(initials);
+            
+            heartContainer.appendChild(heart);
+            setTimeout(() => {
+                heart.remove();
+            }, 5000);
+        }
+        
+        function changeInitials() {
+            document.querySelectorAll(".initials").forEach(el => {
+                el.textContent = document.getElementById("inputInitials").value;
+            });
+        }
+        
+        setInterval(createHeart, 500);
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
