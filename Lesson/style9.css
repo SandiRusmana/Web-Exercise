@@ -1,0 +1,148 @@
+body {
+  font-family: sans-serif;
+}
+.kotak {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+.bulat {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50%;
+}
+.border {
+  width: 300px;
+  height: 100px;
+  border-radius: 0px solid;
+  display: block;
+  border: 1.5px solid rgb(243, 241, 241);
+}
+.all {
+  background-color: rgb(61, 60, 60);
+  width: 300px;
+  height: 110px;
+  border-radius: 0px solid;
+  display: block;
+  border: 1.5px solid rgb(243, 241, 241);
+}
+.yutub {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 22px 10px 0px 10px;
+}
+.add {
+  color: darkgrey;
+  font-size: small;
+  margin: 10px;
+}
+.visca {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.seven {
+  box-shadow: 0 0 5px rgb(107, 106, 106);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 65px;
+  width: 400px;
+  display: inline-flex;
+}
+.seveng {
+  border: none;
+  background-color: rgb(65, 105, 225);
+  margin-left: 70px;
+  height: 40px;
+  padding: 10px 10px;
+  border-radius: 40px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin-top: 13px;
+}
+.teks {
+  margin-top: 23px;
+  color: rgb(108, 117, 125);
+}
+.olivier {
+  box-shadow: 0 0 10px rgb(107, 106, 106);
+  width: 140px;
+  height: 220px;
+  border-radius: 0px solid;
+  display: inline-block;
+  border: none rgb(243, 241, 241);
+}
+.persib{
+  height: 100px;
+}
+.oliv{
+  margin-left: 5px;
+  font-size:large;
+  font-weight: bold;
+}
+.teman{
+  margin-left: 5px;
+  font-size: smaller;
+  color:rgb(107, 106, 106) ;
+}
+.mutual{
+  background-color:rgb(65, 105, 225) ;
+  border: none;
+  color: white;
+  margin-left: 5px;
+  height: 24px;
+  border-radius: 3px;
+}
+.pusing{
+  box-shadow: 0 0 10px rgb(107, 106, 106);
+  width: 140px;
+  height: 220px;
+  border-radius: 0px solid;
+  display: inline-block;
+  border: none rgb(243, 241, 241);
+  margin-left: 9px;
+}
+.treble{
+  height: 100px;
+  width: 140px;
+}
+.dasi{
+  height: 100px;
+  width: 140px;
+}
+.gambar{
+  height: 180px;
+  margin-left: 500px;
+}
+.search{
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 3);
+  margin-left: 415px;
+  margin-top: 10px 10px 10px;
+  font-size: medium;
+}
+.garis{
+  background-color: rgb(243, 241, 241);
+  border: none;
+  width: 150px;
+  height: 30px;
+  margin: 5px 10px;
+  color: black;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn-yesno{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

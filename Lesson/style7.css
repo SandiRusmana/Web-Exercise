@@ -1,0 +1,86 @@
+body{
+  font-family: sans-serif;
+}
+.kotak img {
+  width: 100px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.batako img {
+  width: 100px;
+  height: 90px;
+}
+.ancolite img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.galang {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border: 1px solid rgb(108, 117, 125);
+  height: 40px;
+  width: 110px;
+  border-radius: 8px;
+  padding-right: 50%;
+}
+#alergimadrid {
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 3);
+}
+.email {
+  font-family: arial;
+  width: 400px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.agree {
+  background-color: blue;
+  color: white;
+  align-items: center;
+  border: 2px ;
+  padding: 10px 100px;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+}
+.visca{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.seven{
+ display: inline-flex;
+}
+
+.teks{
+  margin-left: 10px;
+  color: rgb(108, 117, 125);
+}
+.seveng{
+  border: none;
+  background-color:rgb( 65,105,225) ;
+  margin-left: 100px;
+  height: 40px;
+  padding:10px 10px;
+  border-radius: 40px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.semua{
+  display: inline-block;
+}

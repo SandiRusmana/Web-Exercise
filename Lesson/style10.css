@@ -1,0 +1,64 @@
+body{
+  font-family: sans-serif;
+}
+.jeep{
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  border: 3px ;
+}
+.semua{
+  display: flex;
+  align-items: center;
+  width: 250px;
+  margin-top: 10px;
+}
+.kata{
+  font-weight: bolder;
+  width: 50px;
+  margin-bottom: 3px;
+  margin-left: 10px;
+}
+.folow{
+  background-color: rgb(72, 172, 234);
+  border: none;
+  color: white;
+  font-weight: bold;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-left:70px ;
+}
+.beda{
+  font-weight:lighter;
+  font-size: 13px;
+  color: #ccc;
+}
+.self{
+  height: 100px;
+  width: 150px;
+  margin-left: 10px;
+}
+.how{
+  font-weight: bolder;
+  width: 50px;
+  margin-bottom: 3px;
+  margin-left: 10px;
+}
+.sama{
+  font-weight:lighter;
+  font-size: 15px;
+  color: #ccc;
+}
+.back{
+  height: 100px;
+  width: 150px;
+  margin-left: 10px;
+}
+.on{
+  height: 100px;
+  width: 150px;
+  margin-left: 10px;
+}

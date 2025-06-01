@@ -1,0 +1,174 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+.grid1 {
+  background-color: blue;
+}
+.grid2 {
+  background-color: pink;
+}
+.all {
+  width: 100vh;
+  display: flex;
+}
+.col1 {
+  background-color: rgb(68, 97, 240);
+  width: 37px;
+}
+.col2 {
+  background-color: pink;
+  width: 200px;
+}
+.col3 {
+  background-color: rgba(61, 129, 237, 0.774);
+  width: 37px;
+}
+
+.culom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.item {
+  background-color: pink;
+  width: 100px;
+}
+.table {
+  display: flex;
+  border: 1px solid gray;
+  justify-content: space-between;
+  padding: 20px 0px 20px 0px;
+}
+.item {
+  background-color: pink;
+}
+.design {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 120px;
+  width: 400px;
+  font-family: sans-serif;
+}
+.content1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: -10px;
+}
+.content2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: -40px;
+}
+.content3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -40px;
+  padding: 10px;
+}
+.notif {
+  background-color: rgb(49, 49, 255);
+  color: white;
+  border: 0px solid gray;
+  border-radius: 10px;
+  width: 27px;
+  text-align: center;
+}
+.jeep {
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  border: 3px;
+}
+.semua {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  margin-top: 10px;
+}
+.kata {
+  font-weight: bolder;
+  width: 50px;
+  margin-bottom: 3px;
+  margin-left: 10px;
+}
+.folow {
+  background-color: rgb(72, 172, 234);
+  border: none;
+  color: white;
+  font-weight: bold;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70px;
+}
+.beda {
+  font-weight: lighter;
+  font-size: 13px;
+  color: #ccc;
+}
+.self {
+  height: 100px;
+  width: 150px;
+  margin-left: 10px;
+}
+.how {
+  font-weight: bolder;
+  width: 50px;
+  margin-bottom: 3px;
+  margin-left: 10px;
+}
+.sama {
+  font-weight: lighter;
+  font-size: 15px;
+  color: #ccc;
+}
+.back {
+  height: 100px;
+  width: 150px;
+  margin-left: 10px;
+}
+.home {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 40px;
+  padding: 5px;
+  background-color: rgb(149, 71, 238);
+  justify-content: space-between;
+}
+.google {
+  border-radius: 20px;
+  border: 0px solid gray;
+  color: rgb(138, 137, 137);
+  width: 300px;
+  padding-left: 10px;
+  height: 30px;
+}
+.menu {
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: -5px;
+}
+.search {
+  margin-top: 4px;
+}
+button {
+  background-color: rgb(146, 54, 252);
+  border: 1px solid white;
+  padding: 5px;
+  width: 90px;
+  margin-top: 5px;
+  color: white;
+  font-family: Arial;
+}
